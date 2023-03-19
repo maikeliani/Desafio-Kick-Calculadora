@@ -1,8 +1,8 @@
 programa {
   funcao inicio() {
-    inteiro opcao =0
-    inteiro x=1
-    inteiro y=1
+    inteiro opcao 
+    inteiro x
+    inteiro y
 
 
   faca
@@ -25,7 +25,7 @@ programa {
   escreva ("4.DIVIDIR \n")
   escreva ("5.SAIR \n")
 
-  escreva("Informe a operaÁ„o matem·tica desejada:")
+  escreva("Informe a opera√ß√£o matem√°tica desejada:")
   leia (opcao)
 
   
@@ -35,22 +35,22 @@ programa {
       escolha(opcao)
       {
        caso 1:
-       escreva(" A soma È: " + (x+y) )
+       escreva(" A soma √©: " + (x+y) )
        pare
 
        
        caso 2:
-       escreva(" A subtraÁ„o È: "+  (x-y) )
+       escreva(" A subtra√ß√£o √©: "+  (x-y) )
        pare
 
        
        caso 3:
-       escreva(" A multiplicaÁ„o È: "+  (x*y) )
+       escreva(" A multiplica√ß√£o √©: "+  (x*y) )
        pare
 
        
        caso 4:
-       escreva(" A divis„o È: " + (x/y))
+       escreva(" A divis√£o √©: " + (x/y))
        pare
        
        caso 5:
